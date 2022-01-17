@@ -48,5 +48,6 @@ public class MyStepsDefinition {
     @And("^Close the browser$")
     public void closeBrowser() {
         Driver.getDriver().close();
+        Driver.getDriver().quit();
     }
 }
